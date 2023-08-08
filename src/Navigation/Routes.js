@@ -12,7 +12,7 @@ export default function Routes() {
     const userData = useSelector(state => state.auth);
     const isFirstTime = useSelector(state => state.isFirstTime.isFirstTime);
 
-    console.log("user data", userData)
+    console.log("user data", userData);
 
     return (
         <NavigationContainer>
